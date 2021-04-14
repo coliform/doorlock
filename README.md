@@ -1,16 +1,16 @@
-# topsecret1
+# doorlock
 
-## Legality
+## Removed Proprietary Bits
 
 This is a project I had worked on throughout 2018.
 
-**I had been given permission to post this** by the company that owns the face recognition technology in the project, so long as all proprietary bits are removed. For the sake of my privacy, I also replaced all mentions of the name of the company with variations of "RedactedCompanyName" and "rcn". All of code & assets in this repository is either from my work or from the Internet.
+**I was given permission to post this** by the company that owns the face recognition technology in the project, so long as all proprietary bits are removed. For the sake of my privacy, I also replaced all mentions of the name of the company with variations of "RedactedCompanyName" and "rcn". All the code & assets in this repository are either from my own work or from the Internet.
 
 ## What is this?
 
-A door lock that's controlled by your phone, and unlocks once it sees the face of a registered user. The face recognition functionality was achieved using the company's face recognition API.
+A door lock that's controlled by your phone, and unlocks once it sees the face of a registered user. The face recognition functionality was achieved using the company's face recognition API. + a license server
 
-None of this will compile or run properly without the library. The purpose of this repo is merely to showcase something that I had worked on.
+None of this will compile or run properly without the library (except the license server). The purpose of this repo is merely to showcase something that I had worked on.
 
 ## Topology
 
@@ -36,3 +36,7 @@ This is the code that's meant to run on the Station computer (Raspi). It handles
 ### InterStellar
 
 The app that runs on users phones. It is used to register new users, add faces, remote control, and watch a live stream from the door on the camera.
+
+### license-server
+
+Not completely related to the door lock, this is a license server built in Node. README.md inside
