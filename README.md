@@ -2,17 +2,21 @@
 
 ## Legality
 
-This is a (proprietary) POC project I had worked on throughout 2018.
+This is a project I had worked on throughout 2018.
 
-**I had been given permission to post this** by the company that owns the technology, so long as all proprietary bits are removed. For the sake of my privacy, I also replaced all mentions of the name of the company with variations of "RedactedCompanyName" and "rcn".
+**I had been given permission to post this** by the company that owns the face recognition technology in the project, so long as all proprietary bits are removed. For the sake of my privacy, I also replaced all mentions of the name of the company with variations of "RedactedCompanyName" and "rcn". All of code & assets in this repository is either from my work or from the Internet.
 
 ## What is this?
 
 A door lock that's controlled by your phone, and unlocks once it sees the face of a registered user. The face recognition functionality was achieved using the company's face recognition API.
 
+None of this will compile or run properly without the library. The purpose of this repo is merely to showcase something that I had worked on.
+
 ## Topology
 
-There are 3 folders inside this repository:
+There are 3 folders inside this repository.
+
+In short, **InterRouter** = server, **InterStation** = door lock, **InterStellar** = phone app, **PyRedactedCompanyName** - wrapper for the native library.
 
 ### InterRouter
 
@@ -21,7 +25,7 @@ The Station/door lock runs on cellular data, which generally does not support po
 Client->Station data is transmitted by sending a REST request from the Client to the Server, which the server then transmits to the Station via the open socket.
 Station->Client data is transmitted from the Station to the Server via the socket, then the Server sends a Push notification to the Client via Firebase.
 
-## PyRedactedCompanyName
+### PyRedactedCompanyName
 
 I had to build a wrapper for the API, which is compiled as a shared object. It uses ctypes to access the native C functions.
 
@@ -32,7 +36,3 @@ This is the code that's meant to run on the Station computer (Raspi). It handles
 ### InterStellar
 
 The app that runs on users phones. It is used to register new users, add faces, remote control, and watch a live stream from the door on the camera.
-
-## Would this compile?
-
-No. The purpose of this repo is merely to showcase something that I had done.
