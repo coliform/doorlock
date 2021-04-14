@@ -1,0 +1,32 @@
+Usage Docs
+==========
+
+**/create-license**
+GETS:
+	auth: Authentication code found in passwords.txt
+	code: Activation code for clients- a-zA-Z0-9*16
+RETURNS:
+	400: Invalid get syntax
+	403: Invalid auth
+	409: Already exists
+	200: Success
+
+**/revoke-license**
+GETS:
+	auth: Authentication code found in passwords.txt
+	code: Activation code for clients- a-zA-Z0-9*16
+RETURNS:
+	400: Invalid get syntax
+	403: Invalid auth
+	404: Activation code not found
+	200: Success
+
+**/get-license**
+GETS:
+	code: Activation code for clients- a-zA-Z0-9*16
+	imei: Unique device identifier
+RETURNS:
+	400: Invalid get syntax
+	403: Invalid code
+	409: Too many activations for activation code
+	200: Success

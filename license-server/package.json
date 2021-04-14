@@ -1,0 +1,29 @@
+{
+	"name": "LicenseServer",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node -r esm server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"author": "",
+	"license": "",
+	"bugs": {
+		"url": ""
+	},
+	"homepage": "",
+	"dependencies": {
+		"async-lock": "^1.2.2",
+		"body-parser": "^1.19.0",
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"json-sql": "^0.4.11",
+		"moment": "^2.24.0",
+		"mysql": "^2.18.1"
+	}
+}
