@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Interstellar</string>
+
+    <string name="w_loading">Loading&#8230;</string>
+    <string name="w_authentication">Waiting for authentication&#8230;</string>
+    <string name="w_locating">Fetching machines&#8230;</string>
+    <string name="w_done">Finished initial loading!</string>
+    <string name="w_fail">Authentication failed. Error code: %1$d</string>
+    <string name="w_failjson">Connection issues.\nPlease restart app or contact support</string>
+
+    <string name="tv_name">Hello, %1$s</string>
+    <string name="tv_machines">You are currently connected to %1$d machines</string>
+    <string name="bt_new">Connect to New</string>
+    <string name="bt_existing">Connect to Existing</string>
+    <string name="bt_logout">Logout</string>
+
+    <string name="cn_sending">Sending&#8230;</string>
+    <string name="cn_done">Done!</string>
+    <string name="cn_waiting">Sent, waiting for response&#8230;</string>
+    <string name="cn_error">An error has occurred!</string>
+    <string name="cn_error2">Error code %1$d</string>
+    <string name="cn_notfound">Not found, please check your key</string>
+    <string name="cn_restarting">Done, restarting app, key is %1$s</string>
+    <string name="cn_restarting2">Done, restarting app</string>
+    <string name="cn_enterid">Please type down your MAID:</string>
+    <string name="cn_maidhint">\{0-9,A-Z,a-z\}\^6</string>
+    <string name="cn_addmaid">Add MAID</string>
+    <string name="cn_exists">%1$s already exists!</string>
+
+    <string name="ct_connected">Connected to first machine</string>
+    <string name="ct_machineid">%1$s (%2$s)</string>
+    <string name="ct_notfound">User not found (this is NOT supposed to happen!)</string>
+    <string name="ct_conflict">Conflict (this is NOT supposed to happen!)</string>
+    <string name="ct_deletedself">Successfully removed current user from station</string>
+    <string name="ct_unlocked">Successfully unlocked!</string>
+    <string name="ct_offline">This machine is probably offline. Please try again later!</string>
+
+    <string name="err_restarting">Sorry, error: %1$d</string>
+
+    <string name="gn_enrolled">Successfully enrolled!</string>
+    <string name="gn_notenrolled">Face not found. Please try again!</string>
+    <string name="gn_enrolling">Enrolling. Please be patient, this could take a minute!</string>
+    <string name="gn_offline">Server is offline. Please try again later!</string>
+
+    <string name="st_delete">Delete Station</string>
+
+    <string name="title_control">Control</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_scanner">QR</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="bt_add_using_maid">ADD&#10;USING&#10;MAID</string>
+    <string name="bt_add_using_qr">ADD&#10;USING&#10;QR CODE</string>
+</resources>
