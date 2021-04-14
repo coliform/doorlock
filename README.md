@@ -16,7 +16,7 @@ None of this will compile or run properly without the library. The purpose of th
 
 There are 3 folders inside this repository.
 
-In short, **InterRouter** = server, **InterStation** = door lock, **InterStellar** = phone app, **PyRedactedCompanyName** - wrapper for the native library.
+In short, **InterRouter** = server, **InterStation** = door lock, **InterStellar** = phone app, **PyRedactedCompanyName** = wrapper for the native library.
 
 ### InterRouter
 
